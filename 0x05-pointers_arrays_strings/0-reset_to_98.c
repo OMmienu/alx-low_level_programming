@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*resest_to_98 - resets the value of given integer to 98
-*@n: parameter
-*Return : noting
+*reset_to_98 - updates the value of the variable
+*the pointer points to 98
+*@n: pointer to the variable update
 */
 
 void reset_to_98(int *n)
