@@ -1,13 +1,8 @@
 #include <stdio.h>
-
 #include <string.h>
-
 #include "main.h"
 
-
-
 /**
-
  * print_rev - Prints a string in reverse order
 
  * @s: String to reverse
