@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: prints all arguments it receives
+ * main - prints all arguments it receives
  * @argc: number of arguments passed to the fun
  * @argv: argument vector of pointers to string
  *
