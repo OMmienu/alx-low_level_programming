@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 	{
 		num_1 = atoi(argv[1]);
 		num_2 = atoi(argv[2]);
-		mu1 = num_1 * num_2;
-		printf("d\n", mu1);
+		mul = num_1 * num_2;
+		printf("d\n", mul);
 	}
 	return (0);
 }
