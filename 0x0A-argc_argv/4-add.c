@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int a = 0, j;
+	int a = 0, i, j;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 			{
 				puts("Error");
 				return (1);
-
 			}
 		}
 	}
