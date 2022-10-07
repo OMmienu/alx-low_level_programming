@@ -1,19 +1,31 @@
-#include "main.h"
 #include <stdlib.h>
 
+
+
 /**
- * mallloc_checked - allowance memory using malloc
- * @b: memory to allowance
- *
- * Return: pointer to allocated memory or normal process termination if error
+
+ * *malloc_checked - allocates memory using malloc and exit if failed
+
+ * @b: int
+
+ * Return: pointer to the array initialized or NULL
+
  */
-void *malloc_checked(insigned int b)
+
+
+
+void *malloc_checked(unsigned int b)
+
 {
 
-	void *p;
+int *m = malloc(b);
 
-	p )-- = malloc(b);
-	if (p == NULL)
-		exit(98);
-	return (p);
+if (m == 0)
+
+	exit(98);
+
+
+
+return (m);
+
 }
