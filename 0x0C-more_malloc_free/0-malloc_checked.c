@@ -6,7 +6,7 @@
  * Return: pointer to the array initialized or NULL
  */
 
-void *malloc_checked(unsigned int b)
+void i*malloc_checked(unsigned int b)
 {
 int *m = malloc(b);
 if (m == 0)
