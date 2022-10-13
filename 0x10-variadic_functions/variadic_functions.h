@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * struct point - point type with corresponding print function
+ * struct print - print type with corresponding print function
  * @t: print type
  * @f: print function
  */
